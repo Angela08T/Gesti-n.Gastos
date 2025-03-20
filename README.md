@@ -27,14 +27,13 @@ python main.py
 ## **Estructura del Proyecto**
 
 gestion-gastos/
-│
-├── main.py                # Punto de entrada de la aplicación.
-├── gasto.py               # Clase Gasto y lógica relacionada.
-├── gestor_gastos.py       # Lógica de negocio y gestión de gastos.
-├── storage.py             # Manejo de almacenamiento persistente.
-├── tests/                 # Pruebas unitarias.
-│   └── test_gestor_gastos.py
-└── README.md              # Documentación del proyecto.
+main.py   ## **Punto de entrada de la aplicación.**
+gasto.py  ## **Clase Gasto y lógica relacionada.**
+gestor_gastos.py  ## **Lógica de negocio y gestión de gastos.**
+storage.py        ## **Manejo de almacenamiento persistente.**
+tests/            ## **Pruebas unitarias.** 
+   test_gestor_gastos.py
+README.md         ## **Documentación del proyecto.**
 
 ## **Pruebas**
 El proyecto incluye pruebas unitarias para garantizar el correcto funcionamiento del código. 
